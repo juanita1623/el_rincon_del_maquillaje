@@ -35,7 +35,7 @@ El modelo incluye los siguientes campos:
 ### **Instrucciones de instalación**
  ```bash
    git clone https://github.com/juanita1623/el_rincon_del_maquillaje.git
-   cd blog-maquillaje
+   cd El rincon de maquillaje
 
 ### 🚀 Instalación y Ejecución
 
