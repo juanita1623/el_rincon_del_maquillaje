@@ -1,3 +1,10 @@
 body {
-    background-color: aquamarine;
+    background-color: #FFDAB9;
+}
+
+h1 {
+
+    text-align: center;
+    color: #fbf9f9;
+    font-family: 'Pacifico', cursive;
 }

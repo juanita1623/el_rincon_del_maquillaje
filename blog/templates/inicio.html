@@ -14,13 +14,14 @@
 <h1>Publicaciones</h1>
 
 {% for publicacion in publicaciones %}
-<a href="{% url 'ver' publicacion.id %}"><div>
-    <h1>{{ publicacion.titulo }}</h1>
+<div>
+    <h2><a href="{% url 'ver' publicacion.id %}">{{ publicacion.titulo }}</a></h2>
     <p>{{ publicacion.descripcion }}</p>
     <p>{{ publicacion.autor }}</p>
     <p>{{ publicacion.creacion|date:'M j Y:i' }}</p>
-</div></a>
+</div>
 {% endfor %}
 
 </body>
 </html>
+
